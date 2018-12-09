@@ -9,7 +9,9 @@ public class HungryMan {
 
     // 1.创建private空参构造
     private HungryMan(){
-        super();
+        if (INSTANCE != null){ // 防止反射方式漏洞,详见单元测试fn02
+            throw new RuntimeException();
+        }
     }
 
     // 2.创建私有的静态属性,该属性是该类的一个实例,并且已经初始化
