@@ -1,6 +1,6 @@
 package com.zy.designPattern.singleton;
 
-import com.zy.designPattern.factory.StaticFacotryLogger;
+import com.zy.designPattern.factory.staticFactory.StaticFacotryLogger;
 import org.slf4j.Logger;
 
 import java.io.ObjectStreamException;

@@ -1,4 +1,4 @@
-package com.zy.designPattern.factory;
+package com.zy.designPattern.factory.staticFactory;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
