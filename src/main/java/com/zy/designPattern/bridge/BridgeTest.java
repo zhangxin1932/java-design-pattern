@@ -6,10 +6,7 @@ import com.zy.designPattern.bridge.impl.HwControl;
 
 /**
  * 桥接模式
- *
- * 购买请求决策项目介绍
- * 决策因素：价格
- * 决策级别：一级审核、二级审核、三级审核
+ * 电视厂商及遥控器生产厂商
  *
  */
 public class BridgeTest {

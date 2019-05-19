@@ -23,8 +23,8 @@ public class LazyMan implements Serializable {
         }
     }
 
-    // 2.创建一个静态的,私有的属性,该属性是该类的一个实例,但是没有初始化
-    private static LazyMan INSTANCE;
+    // 2.创建一个静态的,私有的属性,该属性是该类的一个实例,但是没有初始化:需要加入volatile关键字, 保证内存可见性, 防止指令重排
+    private static volatile LazyMan INSTANCE;
 
     // 3.提供该属性的外部访问方式,注意多线程时的问题,需要同步技术
     public static LazyMan getInstance(){
