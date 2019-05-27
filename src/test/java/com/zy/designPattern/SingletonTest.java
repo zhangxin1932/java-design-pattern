@@ -1,7 +1,11 @@
 package com.zy.designPattern;
 
+import com.zy.designPattern.builer.beanBuilder.BeanBuilder;
 import com.zy.designPattern.singleton.EnumHungryMan;
 import com.zy.designPattern.singleton.LazyMan;
+import lombok.AllArgsConstructor;
+import lombok.Builder;
+import lombok.Data;
 import org.junit.Test;
 
 import java.lang.reflect.Constructor;
@@ -40,5 +44,15 @@ public class SingletonTest {
         long l = duration.toMillis();
         System.out.println(l);
     }
+
+    public static void main(String[] args) {
+        BeanBuilder builder = new BeanBuilder()
+                .id(1)
+                .name("tom")
+                .score(90.5)
+                .build();
+        System.out.println(builder);
+    }
+
 
 }
