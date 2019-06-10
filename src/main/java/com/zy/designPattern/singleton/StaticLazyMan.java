@@ -24,4 +24,5 @@ public class StaticLazyMan {
     public static StaticLazyMan getInstance(){
         return StaticLazyManInstance.INSTANCE;
     }
+
 }
