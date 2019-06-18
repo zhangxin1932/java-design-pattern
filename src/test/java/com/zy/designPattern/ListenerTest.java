@@ -1,7 +1,7 @@
 package com.zy.designPattern;
 
-import com.zy.designPattern.listener.EventSource;
-import com.zy.designPattern.listener.MouseEvent;
+import com.zy.designPattern.listener.version01.EventSource;
+import com.zy.designPattern.listener.version01.MouseEvent;
 import org.junit.Test;
 
 import java.util.concurrent.TimeUnit;
