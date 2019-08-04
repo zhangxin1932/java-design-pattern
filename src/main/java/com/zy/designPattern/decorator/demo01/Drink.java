@@ -1,4 +1,4 @@
-package com.zy.designPattern.decorator;
+package com.zy.designPattern.decorator.demo01;
 
 import lombok.Data;
 

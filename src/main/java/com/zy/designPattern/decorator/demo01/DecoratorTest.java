@@ -1,9 +1,9 @@
-package com.zy.designPattern.decorator;
+package com.zy.designPattern.decorator.demo01;
 
-import com.zy.designPattern.decorator.coffee.Coffee01;
-import com.zy.designPattern.decorator.coffee.Coffee02;
-import com.zy.designPattern.decorator.decorator.Milk;
-import com.zy.designPattern.decorator.decorator.Sugar;
+import com.zy.designPattern.decorator.demo01.coffee.Coffee01;
+import com.zy.designPattern.decorator.demo01.coffee.Coffee02;
+import com.zy.designPattern.decorator.demo01.decorator.Milk;
+import com.zy.designPattern.decorator.demo01.decorator.Sugar;
 
 /**
  *

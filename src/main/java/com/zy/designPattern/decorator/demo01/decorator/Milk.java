@@ -1,6 +1,6 @@
-package com.zy.designPattern.decorator.decorator;
+package com.zy.designPattern.decorator.demo01.decorator;
 
-import com.zy.designPattern.decorator.Drink;
+import com.zy.designPattern.decorator.demo01.Drink;
 
 public class Milk extends Decorator {
     public Milk(Drink drink) {

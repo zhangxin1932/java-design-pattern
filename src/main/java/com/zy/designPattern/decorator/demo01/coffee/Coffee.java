@@ -1,6 +1,6 @@
-package com.zy.designPattern.decorator.coffee;
+package com.zy.designPattern.decorator.demo01.coffee;
 
-import com.zy.designPattern.decorator.Drink;
+import com.zy.designPattern.decorator.demo01.Drink;
 
 public class Coffee extends Drink {
 
