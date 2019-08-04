@@ -1,4 +1,4 @@
-package com.zy.designPattern.chain;
+package com.zy.designPattern.chain.demo01;
 
 /**
  * 责任链模式
