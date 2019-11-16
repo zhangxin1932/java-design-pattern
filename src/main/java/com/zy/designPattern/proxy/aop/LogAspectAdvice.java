@@ -27,12 +27,12 @@ public class LogAspectAdvice {
         String params = Joiner.on(",").useForNull("null").join(args);
         // 方法执行前打印日志
         //log.info(String.format("class: %s, method: %s, params-in: %s;", className, methodName, params));
-        System.out.println((String.format("class: %s, method: %s, params-in: %s;", className, methodName, params)));
+        System.out.println((String.format("class: %s, method: %s, params-in: %s; ... ", className, methodName, params)));
         // 执行方法
         Object result = point.proceed();
         // 方法执行后打印日志
         //log.info(String.format("class: %s, method: %s, params-out: %s;", className, methodName, result));
-        System.out.println(String.format("class: %s, method: %s, params-out: %s;", className, methodName, result));
+        System.out.println(String.format("class: %s, method: %s, params-out: %s; >>> ", className, methodName, result));
         return result;
     }
 

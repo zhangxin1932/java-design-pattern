@@ -17,6 +17,7 @@ public class LogAspectServiceImplTest {
 
     @Test
     public void testHello() {
-        logAspectService.hello(new Stu(1, "tom"));
+        Object hello = logAspectService.hello(new Stu(1, "tom"));
+        System.out.println(" --------- " + hello);
     }
 }
